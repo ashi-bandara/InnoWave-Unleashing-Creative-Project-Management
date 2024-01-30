@@ -15,13 +15,22 @@ import { useMediaQuery } from "usehooks-ts";
 import { useMutation } from "convex/react";
 import { toast } from "sonner";
 
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+} from "@/components/ui/popover";
+
 import { cn } from "@/lib/utils";
 import { api } from "@/convex/_generated/api";
 import { UserItem } from "./user-item";
 import { Item } from "./item";
 import { DocumentList } from "./document-list";
+import { TrashBox } from "./trash-box";
+import { useSearch } from "@/hooks/use-search";
 
 export const Navigation = () => {
+  const search = useSearch();
   const router = useRouter();
   const params = useParams();
   const pathname = usePathname();
@@ -144,7 +153,7 @@ export const Navigation = () => {
                   label="Search"
                   icon={Search}
                   isSearch
-                  onClick={() => {}}
+                  onClick={search.onOpen}
                 />
                 <Item
                   label="Settings"
@@ -158,8 +167,25 @@ export const Navigation = () => {
                 />
             </div>
             <div className="mt-4">
-              <DocumentList />
+            <DocumentList />
+            <Item
+              onClick={handleCreate}
+              icon={Plus}
+              label="Add a page"
+            />
             </div>
+            <Popover>
+            <PopoverTrigger className="w-full mt-4">
+              <Item label="Trash" icon={Trash} />
+            </PopoverTrigger>
+            <PopoverContent
+              className="p-0 w-72"
+              side={isMobile ? "bottom" : "right"}
+            >
+              <TrashBox />
+            </PopoverContent>
+          </Popover>
+            
             <div 
                 onMouseDown={handleMouseDown}
                 onClick={resetWidth}
