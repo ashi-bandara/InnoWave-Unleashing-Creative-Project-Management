@@ -13,9 +13,11 @@ export const Heading = () => {
 
   return (
     <div className="max-w-3xl space-y-4">
-      <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium">
-      Harmonizing your Ideas, Documents, & Plans <br/> Welcome to the Unified World of <br/> <span className="font-bold">InnoWave</span>
+      <h1 className="text-2xl sm:text-4xl md:text-5xl font-medium">
+      Harmonizing your Ideas, Documents, & Plans <br/> Welcome to the Unified World of <br/> <span className="font-black text-4xl sm:text-6xl md:text-7xl">InnoWave</span>
       </h1>
+      <br/>
+      <br/>
       <h3 className="text-base sm:text-xl md:text-2xl font-regular">
       Step into the InnoWave Workspace, where seamless connections pave the way for better, faster work...
       </h3>
@@ -27,7 +29,7 @@ export const Heading = () => {
       {isAuthenticated && !isLoading && (
         <Button asChild>
           <Link href="/documents">
-            Enter Jotion
+            Enter InnoWave
             <ArrowRight className="h-4 w-4 ml-2" />
           </Link>
         </Button>

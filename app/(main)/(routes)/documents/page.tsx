@@ -6,7 +6,6 @@ import { PlusCircle } from "lucide-react";
 import { useMutation } from "convex/react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
-
 import { api } from "@/convex/_generated/api";
 import { Button } from "@/components/ui/button";
 
@@ -27,7 +26,7 @@ const DocumentsPage = () => {
   };
 
   return ( 
-    <div className="h-full flex flex-col items-center justify-center space-y-4">
+    <div className="h-full flex flex-col items-center justify-center space-y-4 min-h-screen">
       <Image
         src="/empty.png"
         height="300"

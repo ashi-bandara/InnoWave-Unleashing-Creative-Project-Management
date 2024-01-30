@@ -15,7 +15,7 @@ const MainLayout = ({
 
   if (isLoading) {
     return (
-      <div className="h-full flex items-center justify-center">
+      <div className="h-full flex items-center justify-center min-h-screen">
         <Spinner size="lg" />
       </div>
     );
