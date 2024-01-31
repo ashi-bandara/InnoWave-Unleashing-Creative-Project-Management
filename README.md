@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# InnoWave - Your Innovative Note-Taking Solution
+
+Welcome to InnoWave, where note-taking meets innovation! InnoWave is a feature-rich note-taking app that goes beyond traditional editors, offering a collaborative and visually appealing workspace. Elevate your productivity, creativity, and collaboration with InnoWave.
+[![Screenshot-2024-01-30-at-9-30-18-PM.png](https://i.postimg.cc/QxVrv4kM/Screenshot-2024-01-30-at-9-30-18-PM.png)](https://postimg.cc/VdyTCFhy)
+
+## Key Features
+
+1. **Real-Time Collaboration 🔄🔗**
+   - Collaborate seamlessly with team members in real-time.
+   - Experience instant updates and changes for efficient teamwork.
+
+2. **Infinite Children Documents 🌲**
+   - Organize your notes with an infinite hierarchy of children documents.
+   - Manage complex information in a structured and intuitive way.
+
+3. **Visual Appeal with Cover Images 🖼️**
+   - Personalize your notes with cover images for a visually appealing experience.
+   - Quickly identify and engage with specific notes using visual cues.
+
+4. **Expandable Sidebar for Quick Navigation ➡️🔀⬅️**
+   - Navigate effortlessly with an expandable sidebar for quick access.
+   - Switch between different sections of your workspace with ease.
+
+5. **Integrated Chatbot for Content Enhancement 🤖**
+   - Receive smart suggestions and improvements for enhanced content.
+   - Elevate the quality of your notes with innovative AI integration.
+
+6. **Light and Dark Mode for Personalization 🌓**
+   - Customize your workspace with both light and dark mode options.
+   - Tailor your environment for visual comfort and personal preferences.
+
+7. **File Management and Publishing to the Web 📤🌐**
+   - Manage files seamlessly with upload, deletion, and replacement features.
+   - Share your notes with the world by publishing them to the web.
+
+8. **Trash Can with Soft Delete 🗑️**
+   - Safeguard your data with a trash can feature and soft delete options.
+   - Easily recover accidentally deleted files for data protection.
+
+9. **Full Mobile Responsiveness 📱**
+   - Enjoy a fully responsive design for a smooth mobile experience.
+   - Access and edit your notes on the go with ease.
+
+10. **Landing Page for a Professional Introduction 🛬**
+    - Create an inviting landing page for professional presentations.
+    - Introduce your workspace with an informative and visually appealing landing page.
 
 ## Getting Started
 
-First, run the development server:
+1. **Sign Up or Log In:**
+   - Create your account on [InnoWave](https://innowave-app.vercel.app) or log in if you already have an account.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Explore Key Features:**
+   - Dive into the innovative features of InnoWave and create your first document.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Collaborate and Personalize:**
+   - Collaborate in real-time, personalize your workspace, and experience a new level of note-taking.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Share Your Experience:**
+   - Share your experience with InnoWave and invite others to join the innovative note-taking journey.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Feedback and Support
 
-## Learn More
+We value your feedback! If you have any questions, suggestions, or encounter any issues, please reach out.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy note-taking with InnoWave!
