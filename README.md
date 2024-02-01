@@ -1,7 +1,10 @@
 # InnoWave - Your Innovative Note-Taking Solution
 
 Welcome to InnoWave, where note-taking meets innovation! InnoWave is a feature-rich note-taking app that goes beyond traditional editors, offering a collaborative and visually appealing workspace. Elevate your productivity, creativity, and collaboration with InnoWave.
+
 [![Screenshot-2024-01-30-at-9-30-18-PM.png](https://i.postimg.cc/QxVrv4kM/Screenshot-2024-01-30-at-9-30-18-PM.png)](https://postimg.cc/VdyTCFhy)
+
+[![Screenshot-2024-02-01-at-10-54-39-PM.png](https://i.postimg.cc/2S012tXV/Screenshot-2024-02-01-at-10-54-39-PM.png)](https://postimg.cc/xXbjd6Q2)
 
 ## Key Features
 
